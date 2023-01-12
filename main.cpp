@@ -8,27 +8,21 @@ We will use this code in class in Lesson 2 to:
   2. demonstrate and use Github version control capabilities
   3. demonstrate how to 'invite' multiplayer partners into a Repl
   4. demonstrate collaborative coding
-  5. demonstrate proper commenting
+  5. demonstrate proper commenting R9
 
 */
-
+    
 #include <iostream>
-#include <string>
-using namespace std;
 
 int main() 
 {
-  string name;
-  int age;
-  int askAge;
-  cout << "Enter your name\n";
-  cin>>name;
-  cout<<"\n Hello " <<name;
-  cout<<"\n May I ask for your age (1-Yes 2-No)?";
-  cin>>askAge;
-  if(askAge==1){
-    cout<< "Enter your age";
-  else
-    cout<<""
-  }
+  int number1 = 67;
+  float number2 = 0.0; 
+  float number3 = 0.0;
+
+  std::cout << "Enter two numbers and hit <Enter>\n";
+  std::cin >> number1 >> number2;     // proof of concept that cin can take more than one input on a single line
+  number3 = number1 + number2; // summing the inputs
+    
+   std::cout << "Hello new World!\n" << "\n " << number3;
 }
