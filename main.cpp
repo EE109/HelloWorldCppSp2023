@@ -13,8 +13,22 @@ We will use this code in class in Lesson 2 to:
 */
 
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main() 
 {
-  std::cout << "Hello World!\n";
+  string name;
+  int age;
+  int askAge;
+  cout << "Enter your name\n";
+  cin>>name;
+  cout<<"\n Hello " <<name;
+  cout<<"\n May I ask for your age (1-Yes 2-No)?";
+  cin>>askAge;
+  if(askAge==1){
+    cout<< "Enter your age";
+  else
+    cout<<""
+  }
 }
