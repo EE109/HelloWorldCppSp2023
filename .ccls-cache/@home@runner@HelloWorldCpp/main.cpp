@@ -1,8 +1,12 @@
+//HelloWorldCppSp2023 is the classic 'first program' for new programmers.
+//
+
+//Alabama A&M University - EE109 Engineering Computing - Spring 2023
+//PM: Prof. John Zehnpfennig
+//
+
 #include <iostream>
 
-using namespace std;
-
-int main() 
-{
-  cout << "Hello World!\n";
+int main() {
+  std::cout << "Hello World!\n";
 }
